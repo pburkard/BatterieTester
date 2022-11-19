@@ -10,6 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="GetCapacity.vi" Type="VI" URL="../GetCapacity.vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="SimpleBatteryState_Sub.vi" Type="VI" URL="../SimpleBatteryState_Sub.vi"/>
+		<Item Name="States_Enum.ctl" Type="VI" URL="../States_Enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
