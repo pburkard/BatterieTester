@@ -57,6 +57,15 @@
 				<Property Name="Name" Type="Str">UnsignedVoltageTask</Property>
 				<Property Name="SampTimingType" Type="Str">On Demand</Property>
 			</Item>
+			<Item Name="ToggleLoadDigitalOutTask" Type="NI-DAQmx Task">
+				<Property Name="\0\ChanType" Type="Str">Digital Output</Property>
+				<Property Name="\0\DO.InvertLines" Type="Str">0</Property>
+				<Property Name="\0\Name" Type="Str">ToggleLoadDigitalOutTask/DigitalOut</Property>
+				<Property Name="\0\PhysicalChanName" Type="Str">myDAQ1/port0</Property>
+				<Property Name="Channels" Type="Str">ToggleLoadDigitalOutTask/DigitalOut</Property>
+				<Property Name="Name" Type="Str">ToggleLoadDigitalOutTask</Property>
+				<Property Name="SampTimingType" Type="Str">On Demand</Property>
+			</Item>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
