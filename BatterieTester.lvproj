@@ -17,7 +17,6 @@
 		<Item Name="SubVIs" Type="Folder" URL="../SubVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="GetCapacity.vi" Type="VI" URL="../GetCapacity.vi"/>
 		<Item Name="Main_old.vi" Type="VI" URL="../Main_old.vi"/>
 		<Item Name="Main2.vi" Type="VI" URL="../../../LabVIEW_Projects/Formula_node/Main2.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
