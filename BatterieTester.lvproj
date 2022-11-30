@@ -38,7 +38,7 @@
 				<Property Name="Channels" Type="Str">MeasurementsTask/BatteryVoltage, MeasurementsTask/LoadCurrent</Property>
 				<Property Name="Name" Type="Str">MeasurementsTask</Property>
 				<Property Name="SampClk.ActiveEdge" Type="Str">Rising</Property>
-				<Property Name="SampClk.Rate" Type="Str">10</Property>
+				<Property Name="SampClk.Rate" Type="Str">50</Property>
 				<Property Name="SampClk.Src" Type="Str"></Property>
 				<Property Name="SampQuant.SampMode" Type="Str">Finite Samples</Property>
 				<Property Name="SampQuant.SampPerChan" Type="Str">50</Property>
